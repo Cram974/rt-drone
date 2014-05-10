@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260ADF7515282808002B9B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260ADF7415282808002B9B8D /* UIKit.framework */; };
+		260ADF7715282808002B9B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260ADF7615282808002B9B8D /* Foundation.framework */; };
+		260ADF7915282808002B9B8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260ADF7815282808002B9B8D /* CoreGraphics.framework */; };
+		260ADF7F15282808002B9B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 260ADF7D15282808002B9B8D /* InfoPlist.strings */; };
+		260ADF8115282808002B9B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 260ADF8015282808002B9B8D /* main.m */; };
+		260ADF8515282808002B9B8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260ADF8415282808002B9B8D /* AppDelegate.m */; };
+		260ADF8815282808002B9B8D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260ADF8615282808002B9B8D /* MainStoryboard.storyboard */; };
+		260ADF8B15282808002B9B8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260ADF8A15282808002B9B8D /* ViewController.m */; };
+		260ADF9315282808002B9B8D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260ADF9215282808002B9B8D /* SenTestingKit.framework */; };
+		260ADF9415282808002B9B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260ADF7415282808002B9B8D /* UIKit.framework */; };
+		260ADF9515282808002B9B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260ADF7615282808002B9B8D /* Foundation.framework */; };
+		260ADF9D15282808002B9B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 260ADF9B15282808002B9B8D /* InfoPlist.strings */; };
+		260ADFA015282808002B9B8D /* RT_DroneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 260ADF9F15282808002B9B8D /* RT_DroneTests.m */; };
+		260ADFAF15283964002B9B8D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 260ADFAE15283964002B9B8D /* background.jpg */; };
+		267D001C152A0F36002034AB /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D001B152A0F36002034AB /* NetworkController.m */; };
+		268F2ADF152EB1FD001BB565 /* logobon.png in Resources */ = {isa = PBXBuildFile; fileRef = 268F2ADE152EB1FD001BB565 /* logobon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		260ADF9615282808002B9B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 260ADF6715282807002B9B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260ADF6F15282808002B9B8D;
+			remoteInfo = "RT-Drone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		260ADF7015282808002B9B8D /* RT-Drone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RT-Drone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		260ADF7415282808002B9B8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		260ADF7615282808002B9B8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		260ADF7815282808002B9B8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		260ADF7C15282808002B9B8D /* RT-Drone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RT-Drone-Info.plist"; sourceTree = "<group>"; };
+		260ADF7E15282808002B9B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		260ADF8015282808002B9B8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		260ADF8215282808002B9B8D /* RT-Drone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RT-Drone-Prefix.pch"; sourceTree = "<group>"; };
+		260ADF8315282808002B9B8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		260ADF8415282808002B9B8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		260ADF8715282808002B9B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		260ADF8915282808002B9B8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		260ADF8A15282808002B9B8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		260ADF9115282808002B9B8D /* RT-DroneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RT-DroneTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		260ADF9215282808002B9B8D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		260ADF9A15282808002B9B8D /* RT-DroneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RT-DroneTests-Info.plist"; sourceTree = "<group>"; };
+		260ADF9C15282808002B9B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		260ADF9E15282808002B9B8D /* RT_DroneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RT_DroneTests.h; sourceTree = "<group>"; };
+		260ADF9F15282808002B9B8D /* RT_DroneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RT_DroneTests.m; sourceTree = "<group>"; };
+		260ADFAE15283964002B9B8D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		267D0019152A0F12002034AB /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		267D001B152A0F36002034AB /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		268F2ADE152EB1FD001BB565 /* logobon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logobon.png; path = ../../logobon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		260ADF6D15282808002B9B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260ADF7515282808002B9B8D /* UIKit.framework in Frameworks */,
+				260ADF7715282808002B9B8D /* Foundation.framework in Frameworks */,
+				260ADF7915282808002B9B8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260ADF8D15282808002B9B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260ADF9315282808002B9B8D /* SenTestingKit.framework in Frameworks */,
+				260ADF9415282808002B9B8D /* UIKit.framework in Frameworks */,
+				260ADF9515282808002B9B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260ADF6515282807002B9B8D = {
+			isa = PBXGroup;
+			children = (
+				260ADF7A15282808002B9B8D /* RT-Drone */,
+				260ADF9815282808002B9B8D /* RT-DroneTests */,
+				260ADF7315282808002B9B8D /* Frameworks */,
+				260ADF7115282808002B9B8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		260ADF7115282808002B9B8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				260ADF7015282808002B9B8D /* RT-Drone.app */,
+				260ADF9115282808002B9B8D /* RT-DroneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		260ADF7315282808002B9B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				260ADF7415282808002B9B8D /* UIKit.framework */,
+				260ADF7615282808002B9B8D /* Foundation.framework */,
+				260ADF7815282808002B9B8D /* CoreGraphics.framework */,
+				260ADF9215282808002B9B8D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		260ADF7A15282808002B9B8D /* RT-Drone */ = {
+			isa = PBXGroup;
+			children = (
+				260ADF8315282808002B9B8D /* AppDelegate.h */,
+				260ADF8415282808002B9B8D /* AppDelegate.m */,
+				260ADF8615282808002B9B8D /* MainStoryboard.storyboard */,
+				260ADF8915282808002B9B8D /* ViewController.h */,
+				260ADF8A15282808002B9B8D /* ViewController.m */,
+				267D0019152A0F12002034AB /* NetworkController.h */,
+				267D001B152A0F36002034AB /* NetworkController.m */,
+				260ADFAD15283964002B9B8D /* Ressources */,
+				260ADF7B15282808002B9B8D /* Supporting Files */,
+			);
+			path = "RT-Drone";
+			sourceTree = "<group>";
+		};
+		260ADF7B15282808002B9B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				260ADF7C15282808002B9B8D /* RT-Drone-Info.plist */,
+				260ADF7D15282808002B9B8D /* InfoPlist.strings */,
+				260ADF8015282808002B9B8D /* main.m */,
+				260ADF8215282808002B9B8D /* RT-Drone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		260ADF9815282808002B9B8D /* RT-DroneTests */ = {
+			isa = PBXGroup;
+			children = (
+				260ADF9E15282808002B9B8D /* RT_DroneTests.h */,
+				260ADF9F15282808002B9B8D /* RT_DroneTests.m */,
+				260ADF9915282808002B9B8D /* Supporting Files */,
+			);
+			path = "RT-DroneTests";
+			sourceTree = "<group>";
+		};
+		260ADF9915282808002B9B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				260ADF9A15282808002B9B8D /* RT-DroneTests-Info.plist */,
+				260ADF9B15282808002B9B8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		260ADFAD15283964002B9B8D /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				268F2ADE152EB1FD001BB565 /* logobon.png */,
+				260ADFAE15283964002B9B8D /* background.jpg */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		260ADF6F15282808002B9B8D /* RT-Drone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260ADFA315282808002B9B8D /* Build configuration list for PBXNativeTarget "RT-Drone" */;
+			buildPhases = (
+				260ADF6C15282808002B9B8D /* Sources */,
+				260ADF6D15282808002B9B8D /* Frameworks */,
+				260ADF6E15282808002B9B8D /* Resources */,
+				50524F424C454D533F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RT-Drone";
+			productName = "RT-Drone";
+			productReference = 260ADF7015282808002B9B8D /* RT-Drone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		260ADF9015282808002B9B8D /* RT-DroneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260ADFA615282808002B9B8D /* Build configuration list for PBXNativeTarget "RT-DroneTests" */;
+			buildPhases = (
+				260ADF8C15282808002B9B8D /* Sources */,
+				260ADF8D15282808002B9B8D /* Frameworks */,
+				260ADF8E15282808002B9B8D /* Resources */,
+				260ADF8F15282808002B9B8D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260ADF9715282808002B9B8D /* PBXTargetDependency */,
+			);
+			name = "RT-DroneTests";
+			productName = "RT-DroneTests";
+			productReference = 260ADF9115282808002B9B8D /* RT-DroneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260ADF6715282807002B9B8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 260ADF6A15282807002B9B8D /* Build configuration list for PBXProject "RT-Drone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 260ADF6515282807002B9B8D;
+			productRefGroup = 260ADF7115282808002B9B8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260ADF6F15282808002B9B8D /* RT-Drone */,
+				260ADF9015282808002B9B8D /* RT-DroneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		260ADF6E15282808002B9B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260ADF7F15282808002B9B8D /* InfoPlist.strings in Resources */,
+				260ADF8815282808002B9B8D /* MainStoryboard.storyboard in Resources */,
+				260ADFAF15283964002B9B8D /* background.jpg in Resources */,
+				268F2ADF152EB1FD001BB565 /* logobon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260ADF8E15282808002B9B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260ADF9D15282808002B9B8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260ADF8F15282808002B9B8D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		260ADF6C15282808002B9B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260ADF8115282808002B9B8D /* main.m in Sources */,
+				260ADF8515282808002B9B8D /* AppDelegate.m in Sources */,
+				260ADF8B15282808002B9B8D /* ViewController.m in Sources */,
+				267D001C152A0F36002034AB /* NetworkController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260ADF8C15282808002B9B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260ADFA015282808002B9B8D /* RT_DroneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		260ADF9715282808002B9B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260ADF6F15282808002B9B8D /* RT-Drone */;
+			targetProxy = 260ADF9615282808002B9B8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		260ADF7D15282808002B9B8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260ADF7E15282808002B9B8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		260ADF8615282808002B9B8D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260ADF8715282808002B9B8D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		260ADF9B15282808002B9B8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260ADF9C15282808002B9B8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		260ADFA115282808002B9B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		260ADFA215282808002B9B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		260ADFA415282808002B9B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RT-Drone/RT-Drone-Prefix.pch";
+				INFOPLIST_FILE = "RT-Drone/RT-Drone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		260ADFA515282808002B9B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RT-Drone/RT-Drone-Prefix.pch";
+				INFOPLIST_FILE = "RT-Drone/RT-Drone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		260ADFA715282808002B9B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RT-Drone.app/RT-Drone";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RT-Drone/RT-Drone-Prefix.pch";
+				INFOPLIST_FILE = "RT-DroneTests/RT-DroneTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		260ADFA815282808002B9B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RT-Drone.app/RT-Drone";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RT-Drone/RT-Drone-Prefix.pch";
+				INFOPLIST_FILE = "RT-DroneTests/RT-DroneTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260ADF6A15282807002B9B8D /* Build configuration list for PBXProject "RT-Drone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260ADFA115282808002B9B8D /* Debug */,
+				260ADFA215282808002B9B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260ADFA315282808002B9B8D /* Build configuration list for PBXNativeTarget "RT-Drone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260ADFA415282808002B9B8D /* Debug */,
+				260ADFA515282808002B9B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260ADFA615282808002B9B8D /* Build configuration list for PBXNativeTarget "RT-DroneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260ADFA715282808002B9B8D /* Debug */,
+				260ADFA815282808002B9B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260ADF6715282807002B9B8D /* Project object */;
+}
